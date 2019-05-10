@@ -131,6 +131,7 @@
 <a href="#tidyverse-1-2-1-9000" class="anchor"></a>tidyverse 1.2.1.9000<small> Unreleased </small>
 </h1>
 <ul>
+<li><p><code><a href="../reference/tidyverse_deps.html">tidyverse_deps()</a></code> and <code><a href="../reference/tidyverse_update.html">tidyverse_update()</a></code> gain a new <code>repos</code> argument that gets passed to the base function <code><a href="https://www.rdocumentation.org/packages/utils/topics/available.packages">available.packages()</a></code> (<a href='https://github.com/zkamvar'>@zkamvar</a>, <a href='https://github.com/tidyverse/tidyverse/issues/82'>#82</a>)</p></li>
 <li><p><code><a href="../reference/tidyverse_deps.html">tidyverse_deps()</a></code> now succeeds even if a dependency of a depedency is missing (<a href='https://github.com/tidyverse/tidyverse/issues/152'>#152</a>, <a href='https://github.com/PoGibas'>@PoGibas</a>)</p></li>
 <li><p>Packages attached from same library they were initially loaded from (<a href='https://github.com/tidyverse/tidyverse/issues/171'>#171</a>, <a href='https://github.com/gabrocsardi'>@gabrocsardi</a>)</p></li>
 <li><p>If conflicted package is loaded, omit display of conflicts</p></li>

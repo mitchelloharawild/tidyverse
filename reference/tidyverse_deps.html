@@ -135,7 +135,7 @@
     
     </div>
 
-    <pre class="usage"><span class='fu'>tidyverse_deps</span>(<span class='kw'>recursive</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)</pre>
+    <pre class="usage"><span class='fu'>tidyverse_deps</span>(<span class='kw'>recursive</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>, <span class='kw'>repos</span> <span class='kw'>=</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/options'>getOption</a></span>(<span class='st'>"repos"</span>))</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -144,6 +144,11 @@
       <th>recursive</th>
       <td><p>If <code>TRUE</code>, will also list all dependencies of
 tidyverse packages.</p></td>
+    </tr>
+    <tr>
+      <th>repos</th>
+      <td><p>The repositories to use to check for updates.
+Defaults to <code>getOptions("repos")</code>.</p></td>
     </tr>
     </table>
     
